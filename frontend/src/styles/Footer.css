@@ -1,0 +1,127 @@
+.footer-container {
+    overflow: hidden;
+    background-color: #242424;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    margin-bottom: 24px;
+    padding: 24px;
+    color: #fff;
+}
+
+.thankyou-container > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.thankyou-text {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.email-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.email-button {
+    background-color: #242424;
+    border: 3px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.email-button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+.footer-input {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+
+#questions {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-manage-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.download-link {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    padding: 0.5rem 1rem;
+    width: 120px;
+    transition: 200ms transform ease-in-out;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.download-link:hover {
+    background-color: #242424;
+    color: white;
+    font-weight: bold;
+}
+
+.resume-link {
+    background-color: #242424;
+    color: white;
+    font-weight: bold;
+}
+
+.resume-link:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.questions-container {
+    margin-top: 20px;
+}
+
+.questions-text {
+    font-size: 18px;
+    -webkit-text-size-adjust: 100%;
+}
+
+.email-status {
+    padding-top: 2%;
+    color: green;
+    font-size: 18px;
+}

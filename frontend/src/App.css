@@ -1,0 +1,10 @@
+.bg-img-fix {
+  background: url('../public/backgroundImg6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+

@@ -1,0 +1,24 @@
+.simple-navbar-container {
+    overflow: hidden;
+    background-image: linear-gradient(-180deg, black, #242424);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.simple-navbar-menu {
+    list-style-type: none;
+}
+
+.simple-navbar-menu .simple-navbar-item {
+    display: inline-flex;
+}
+
+.simple-navbar-item {
+    padding: 10px;
+}

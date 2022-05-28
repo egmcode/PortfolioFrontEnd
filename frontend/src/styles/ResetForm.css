@@ -1,0 +1,135 @@
+.resetform-container {
+    position: relative;
+    background: url('../../public/backgroundImg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 7%;
+    text-align: center;
+}
+
+.resetform-input-box {
+    background: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px 0px black;
+    overflow: hidden;
+}
+
+.resetform-input-box h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 350%;
+    padding-bottom: 2%;
+}
+
+.resetform-input-box p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.resetform-form {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resetform-form td {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.resetform-list-item label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 110%;
+}
+
+.resetform-list-item {
+    margin: 5%;
+}
+
+.resetform-list-item input {
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.resetform-input-box button {
+    margin-top: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-radius: 8px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: black;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#resetform-state-msg {
+    color: red;
+    margin-top: 2%;
+}
+
+.resetform-buttons {
+    color: black;
+    list-style: none;
+}
+
+.resetform-button {
+    background-image: linear-gradient(-180deg, #595656, white);
+    box-shadow: 0px 0px 5px 0px black;
+    color: black;
+}
+
+.resetform-button:hover {
+    background-image: linear-gradient(-180deg, white, #595656);
+    transform: scale(1.025);
+    color: black;
+}
+
+@media (max-width: 900px)
+{
+    .resetform-input-box {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .resetform-input-box {
+        margin: 0;
+    }
+
+    .resetform-input-box h1 {
+        font-size: 200%;
+    }
+
+    .resetform-list-item label {
+        font-size: 90%;
+    }
+
+    .resetform-list-item input {
+        padding: 1%;
+    }
+
+    .resetform-input-box button {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+}

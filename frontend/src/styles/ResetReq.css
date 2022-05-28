@@ -1,0 +1,161 @@
+.resetreq-container {
+    position: relative;
+    background: url('../../public/backgroundImg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 7%;
+    text-align: center;
+}
+
+.resetreq-input-box {
+    background: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 25px 0px black;
+    overflow: hidden;
+}
+
+.resetreq-input-box h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 350%;
+    padding-bottom: 2%;
+}
+
+.resetreq-input-box p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.resetreq-form {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resetreq-form td {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.resetreq-list-item label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.resetreq-list-item {
+    margin: 5%;
+}
+
+.resetreq-list-item input {
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.resetreq-input-box button {
+    margin-top: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-radius: 8px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: black;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#resetreq-state-msg {
+    color: red;
+    margin-top: 2%;
+}
+
+.resetreq-buttons {
+    color: black;
+    list-style: none;
+}
+
+.resetreq-button {
+    background-image: linear-gradient(-180deg, #595656, white);
+    box-shadow: 0px 0px 5px 0px black;
+    color: black;
+}
+
+.resetreq-button:hover {
+    background-image: linear-gradient(-180deg, white, #595656);
+    transform: scale(1.025);
+    color: black;
+}
+
+@media (max-width: 1200px)
+{
+    .resetreq-input-box {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+
+    }
+
+    .resetreq-input-box h1 {
+        font-size: 200%;
+    }
+
+    .resetreq-list-item label {
+        font-size: 100%; 
+    }
+
+    .resetreq-list-item input {
+        padding: 1%;
+    }
+
+    .resetreq-input-box button {
+        padding-bottom: 0%;
+        padding-top: 0%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .resetreq-input-box {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+
+    }
+
+    .resetreq-input-box h1 {
+        font-size: 150%;
+    }
+
+    .resetreq-list-item label {
+        font-size: 100%; 
+    }
+
+    .resetreq-list-item input {
+        padding: 0;
+    }
+
+    .resetreq-input-box button {
+        font-size: 75%;
+        margin-top: 5%;
+        padding-bottom: 0%;
+        padding-top: 0%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}

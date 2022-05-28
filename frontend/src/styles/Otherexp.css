@@ -1,0 +1,46 @@
+.othexp-container {
+    overflow: hidden;
+    background-color: black;
+}
+
+.othexp-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+
+.othexp-flexbox-item img {
+    width: 20rem;
+}
+
+.othexp-flexbox-item {
+    color: white;
+    width: 20vw;
+    margin: 1vh;
+    transition: 200ms transform ease-in-out;
+}
+
+.othexp-flexbox-item-txt {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.othexp-flexbox-item:hover {
+    transform: scale(1.025);
+}
+
+@media (max-width: 1200px) {
+    .othexp-items-container {
+      display: block;
+    }
+    .othexp-flexbox-item-txt {
+      position: relative;
+      padding: 1rem;
+    }
+    .othexp-flexbox-item img {
+        width: 15rem;
+    }
+  }

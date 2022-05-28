@@ -1,0 +1,14 @@
+.exptitle-container {
+    overflow: hidden;
+    padding: 25px;
+    padding-top: 80px;
+    background-color: black;
+}
+
+.exptitle-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

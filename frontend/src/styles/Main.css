@@ -1,0 +1,83 @@
+.main-container {
+    overflow: hidden;
+}
+
+.main-body-container h1 {
+    color: black;
+    font-size: 450%;
+    text-align: center;
+    font-weight: lighter;
+    overflow-wrap: break-word;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-body-quote {
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 220%;
+    text-align: center;
+    overflow-wrap: break-word;
+    font-style: italic;
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-body-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.main-buttons-container {
+    padding-top: 2.5%;
+}
+
+.main-link {
+    transition: 200ms transform ease-in-out;
+    background-color: rgba(26, 23, 23, 0.2);
+    border: 3px solid rgba(26, 23, 23, 0);
+    box-shadow: 0px 0px 25px 0px black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    width: 120px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.main-link:hover {
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgba(26, 23, 23, 0.2);
+
+}
+
+.contact-page-link {
+    background-color: rgba(26, 23, 23, 0.2);
+    color: white;
+    font-weight: lighter;
+    border: 3px solid rgb(26, 23, 23, 0);
+}
+
+.contact-page-link:hover {
+    background-color: rgba(0,0,0,0);
+    border: 3px solid rgba(26, 23, 23, 0.2);
+    color: white;
+    font-weight: bold;
+}
+
+.main-list {
+    padding-top: 5%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}

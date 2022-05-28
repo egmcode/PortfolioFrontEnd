@@ -1,0 +1,62 @@
+.relexp-container {
+    overflow: hidden;
+    background-color: black;
+}
+
+.relexp-items-container {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    color: white;
+}
+
+.relexp-flexbox-item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.relexp-flexbox-item {
+    transition: 200ms transform ease-in-out;
+}
+
+.relexp-flexbox-item-txt {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+@media (max-width: 700px) {
+    .relexp-items-container {
+      display: block;
+      font-size: 80%;
+    }
+    .relexp-flexbox-item-txt {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background-color: rgba(255, 255, 255, 0.4);
+      color: black;
+      font-size: 15px;
+    }
+    #current {
+        color: rgba(59, 102, 16, 0.8);
+    }
+  }
+
+
+.relexp-flexbox-item:hover {
+    transform: scale(1.025);
+}
+
+#current {
+    color:chartreuse;
+    font-size: 15px;
+}
